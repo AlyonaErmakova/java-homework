@@ -1,0 +1,9 @@
+--- /home/user/start/sed.txt
++++ /opt/task/start.txt
+@@ -1,5 +1,5 @@
+ Start
+-Mon May 19 01:31:01 UTC 2025
++Mon May 19 01:19:28 UTC 2025
+ dr-xr-xr-x   31 alyona     alyona             0 Jan  1  1970 proc
+ drwxr-xr-x    5 alyona     alyona           323 Sep 18  2019 alyona
+ drwxr-xr-x    3 alyona     alyona           120 May 19 00:38 run
