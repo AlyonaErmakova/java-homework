@@ -1,0 +1,138 @@
+   0 ls -l
+   1 qjs
+   2 qjscalc 
+   3 qjsc
+   4 emacs hello.js
+   5 vi hello.js
+   6 ls
+   7 ls -l
+   8 qjs hello.js 
+   9 qjsc hello.js 
+  10 ls -l
+  11 qjsc hello.js -o hello
+  12 ls -l
+  13 qjsc
+  14 ls -l /usr/local/lib
+  15 ls -l /usr/lib/quickjs/libquickjs.*
+  16 strace qjsc hello.js 
+  17 ls -l /tmp
+  18 ls /usr/include/quickjs/quickjs.h 
+  19 gcc
+  20 strace qjsc hello.js -o hello
+  21 strace -f qjsc hello.js -o hello
+  22 ls
+  23 qjsc hello.js -o hello
+  24 ls -l
+  25 strace -f qjsc hello.js -o hello
+  26 ls
+  27 qjsc hello.js -o hello
+  28 ls
+  29 ./hello
+  30 ls -l
+  31 qjsbnc hello.js -o hello
+  32 ls -l
+  33 qjsbnc hello.js -o hello
+  34 strace qjsbnc hello.js -o hello
+  35 ls
+  36 ls -l
+  37 rm hello
+  38 ls -l
+  39 strace qjsbnc hello.js -o hello
+  40 ./hello
+  41 ls -l
+  42 rm hello
+  43 ls -l
+  44 rm hello.js 
+  45 ls -l
+  46 tcc
+  47 tcc hello.c -o hello
+  48 ls -l
+  49 ./hello
+  50 readelf -a hello
+  51 tcc hello.c -o hello
+  52 ls -l
+  53 ./hello
+  54 objdump -d ./hello
+  55 readelf -a ./hello
+  56 ls -l /lib/ld-linux.so.2 
+  57 ./hello
+  58 gdb ./hello
+  59 cd /usr/lib/tcc
+  60 ls -l
+  61 md5sum libtcc1.a 
+  62 ls -l
+  63 md5sum libtcc1.a 
+  64 cd
+  65 tcc hello.c -o hello
+  66 ls -l
+  67 ./hello
+  68 gdb ./hello
+  69 ls -l
+  70 rm hello
+  71 y
+  72 ./hello
+  73 tc
+  74 tcc
+  75 ls -l
+  76 tcc hello.c -o hello
+  77 ./hello
+  78 ls -l
+  79 which tcc
+  80 tcc -h
+  81 ls -l
+  82 rm hello
+  83 ls -l
+  84 cat hello.c 
+  85 riscvemu
+  86 top
+  87 df -h
+  88 cd /
+  89 ls -la
+  90 touch /home/file
+  91 cd /home/
+  92 ls -la
+  93 date >> /home/file 
+  94 cat /home/file 
+  95 df -h | head -1
+  96 df -h | grep -w /dev/root 
+  97 df -h | grep -w /dev/root >> /home/file 
+  98 cat /home/file 
+  99 history | tail -5
+ 100 history | tail -5 >> /home/file 
+ 101 cat /home/file 
+ 102 ps -ef | grep -w vendor
+ 103 cat /home/file 
+ 104 cat /proc/cpuinfo 
+ 105 cat /proc/cpuinfo | grep -w vendor
+ 106 cat /proc/cpuinfo | grep -w vendor_id
+ 107 cat /proc/cpuinfo | grep -w vendor_id >> /home/file 
+ 108 cat /home/file 
+ 109 vi /home/file 
+ 110 cat /home/file 
+ 111 ps -ef | wc -l
+ 112 ps -ef | wc -l >> /home/file 
+ 113 cat /home/file 
+ 114 export_file /home/file 
+ 115 touch /home/myfirstbashscript.sh
+ 116 cd /home
+ 117 ls -la
+ 118 date >> /hom
+ 119 date >> /home/myfirstbashscript.sh 
+ 120 cat /home/myfirstbashscript.sh 
+ 121 #! /home/myfirstbashscript.sh 
+ 122 /home/myfirstbashscript.sh 
+ 123 ls -la
+ 124 vi /home/myfirstbashscript.sh 
+ 125 cat /home/myfirstbashscript.sh 
+ 126 ls -la
+ 127 chmot u+x myfirstbashscript.sh 
+ 128 chmod u+x myfirstbashscript.sh 
+ 129 ls -la
+ 130 ./myfirstbashscript.sh 
+ 131 ./myfirstbashscript.sh  >> date1.txt
+ 132 cat /home/date1.txt
+ 133 ./myfirstbashscript.sh  >> date2.txt
+ 134 cat /home/date2.txt
+ 135 export_file /home/date1.txt
+ 136 export_file /home/date2.txt
+ 137 history >> /home/history.txt
